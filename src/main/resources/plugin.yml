@@ -1,0 +1,6 @@
+name: EnderPocket
+version: '1.0.0'
+main: top.timeblog.enderPocket.EnderPocket
+api-version: '1.21'
+authors: [ Time ]
+website: https://www.time-blog.top
