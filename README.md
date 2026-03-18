@@ -1,8 +1,8 @@
 # 📦 EnderPocket
 ![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.14--1.21.11-green)
-![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Spigot-orange)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Bukkit%20%7C%20Paper%20%7C%20Spigot-orange)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue)
 
 A simple and practical Minecraft plugin.
 
