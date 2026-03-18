@@ -58,7 +58,6 @@ Sneak + right-click to place it normally.
 
 * [ ] View the specified player's Ender Chest
 * [ ] Add permission support
-* [ ] Custom item support
 
 ---
 
