@@ -1,5 +1,5 @@
 # 📦 EnderPocket
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.14--1.21.11-green)
 ![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Spigot-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
@@ -8,16 +8,25 @@ A simple and practical Minecraft plugin.
 
 Right-click to open your Ender Chest anywhere.
 Sneak + right-click to place it normally.
+You can now also open other online players’ Ender Chests with proper permissions.
 
 ---
 
 ## ✨ Features
 
 * 📦 Right-click to open your Ender Chest instantly
-* 🧎 Sneak (Shift) + right-click to place the Ender Chest
+* 🧎 Sneak (Shift) + right-click to place Ender Chest normally
 * 🌍 Works anywhere, no need to access a block
 * ⚡ Lightweight and easy to use
+* 🛡️ Permission system:
+  * `enderpocket.use` → Use your own Ender Chest  
+  * `enderpocket.open.it` → Open another player’s Ender Chest
+* 🔑 Command system:
+  * `/ep` → Open your Ender Chest  
+  * `/ep open <player>` → Open another player’s Ender Chest (online only)
+
 ---
+
 ## 🎬 Demo
 
 ![Demo](assets/demo.gif)
@@ -28,6 +37,8 @@ Sneak + right-click to place it normally.
 
 * **Right-click** with an Ender Chest → Open Ender Chest
 * **Shift + Right-click** → Place Ender Chest normally
+* **/ep** → Open Ender Chest (requires permission)
+* **/ep open <player>** → Open another online player’s Ender Chest (requires permission)
 
 ---
 
@@ -49,15 +60,8 @@ Sneak + right-click to place it normally.
 ## ⚠️ Notes
 
 * Only works with Ender Chest item
-* Does not modify Ender Chest data
-* No permissions or cooldown (yet 👀)
-
----
-
-## 📌 Todo
-
-* [ ] View the specified player's Ender Chest
-* [ ] Add permission support
+* Online players only when opening others’ Ender Chests
+* Permissions must be assigned to open other players’ Ender Chests
 
 ---
 
