@@ -12,6 +12,7 @@ public class playerUseItemEventListener implements Listener{
 
     @EventHandler
     public void onUse(PlayerInteractEvent event) {
+        if (!event.getPlayer().hasPermission("enderpocket.use")) return;
         // 只处理主手（避免触发两次）
         if (event.getHand() != EquipmentSlot.HAND) return;
 
@@ -28,8 +29,6 @@ public class playerUseItemEventListener implements Listener{
                 player.openInventory(player.getEnderChest());
                 event.setCancelled(true);
             }
-        };
+        }
     }
-
-
 }

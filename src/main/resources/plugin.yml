@@ -4,3 +4,20 @@ main: top.timeblog.enderPocket.EnderPocket
 api-version: '1.14'
 authors: [ Time ]
 website: https://www.time-blog.top
+commands:
+  enderpocket:
+    description: Open Ender Chest
+    usage: /enderpocket
+    aliases:
+     - ep
+permissions:
+  enderpocket.use:
+    description: Allow using EnderPocket
+    default: true
+  enderpocket.open:
+    description: Allow the use of commands to open the Ender Pocket
+    default: op
+  enderpocket.open.it:
+    description: Allows the use of commands to open other players' EnderPockets
+    default: op
+
