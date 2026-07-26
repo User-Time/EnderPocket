@@ -1,5 +1,5 @@
 name: EnderPocket
-version: '1.0.0'
+version: '1.1.0'
 main: top.timeblog.enderPocket.EnderPocket
 api-version: '1.14'
 authors: [ Time ]
